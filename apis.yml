@@ -1,135 +1,25 @@
+aid: nostro
 name: Nostro
-description: Nostro provides APIs for managing correspondent banking relationships, nostro account reconciliation, and liquidity management across multiple currencies and financial institutions.
-image: https://example.com/nostro-logo.png
-url: https://nostro.example.com
+description: >-
+  Nostro refers to an account that a bank holds in a foreign currency at another
+  bank (correspondent bank). Nostro account management involves reconciliation,
+  liquidity management, and transaction tracking across correspondent banking
+  relationships and multiple currencies.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Banking
-- Nostro Accounts
-- Correspondent Banking
-- Reconciliation
-- Liquidity Management
-- Treasury
-created: '2024-01-15'
-modified: '2024-01-15'
-apis:
-- name: Nostro Accounts API
-  description: Manage nostro account information, balances, and positions across correspondent banks
-  image: https://example.com/nostro-accounts-icon.png
-  baseURL: https://api.nostro.example.com/v1/accounts
-  humanURL: https://nostro.example.com/products/accounts
-  tags:
-  - Accounts
-  - Balances
-  - Positions
-  properties:
-  - type: Documentation
-    url: https://docs.nostro.example.com/accounts
-  - type: OpenAPI
-    url: https://api.nostro.example.com/openapi/accounts.yaml
-  - type: Authentication
-    url: https://docs.nostro.example.com/authentication
-  contact:
-  - FN: Nostro API Support
-    email: api-support@nostro.example.com
-    url: https://nostro.example.com/support
-- name: Reconciliation API
-  description: Automate nostro account reconciliation with bank statements and internal records
-  image: https://example.com/reconciliation-icon.png
-  baseURL: https://api.nostro.example.com/v1/reconciliation
-  humanURL: https://nostro.example.com/products/reconciliation
-  tags:
+  - Banking
+  - Nostro Accounts
+  - Correspondent Banking
   - Reconciliation
-  - Statements
-  - Matching
-  - Exceptions
-  properties:
-  - type: Documentation
-    url: https://docs.nostro.example.com/reconciliation
-  - type: OpenAPI
-    url: https://api.nostro.example.com/openapi/reconciliation.yaml
-  - type: Webhooks
-    url: https://docs.nostro.example.com/webhooks/reconciliation
-  contact:
-  - FN: Nostro API Support
-    email: api-support@nostro.example.com
-- name: Liquidity Management API
-  description: Monitor and optimize liquidity across nostro accounts and currencies
-  image: https://example.com/liquidity-icon.png
-  baseURL: https://api.nostro.example.com/v1/liquidity
-  humanURL: https://nostro.example.com/products/liquidity
-  tags:
-  - Liquidity
-  - Cash Management
-  - Forecasting
-  - Optimization
-  properties:
-  - type: Documentation
-    url: https://docs.nostro.example.com/liquidity
-  - type: OpenAPI
-    url: https://api.nostro.example.com/openapi/liquidity.yaml
-  - type: SDKs
-    url: https://docs.nostro.example.com/sdks
-  contact:
-  - FN: Nostro API Support
-    email: api-support@nostro.example.com
-- name: Transactions API
-  description: Process and track transactions across nostro accounts
-  image: https://example.com/transactions-icon.png
-  baseURL: https://api.nostro.example.com/v1/transactions
-  humanURL: https://nostro.example.com/products/transactions
-  tags:
-  - Transactions
-  - Payments
-  - Transfers
-  - History
-  properties:
-  - type: Documentation
-    url: https://docs.nostro.example.com/transactions
-  - type: OpenAPI
-    url: https://api.nostro.example.com/openapi/transactions.yaml
-  - type: Rate Limits
-    url: https://docs.nostro.example.com/rate-limits
-  contact:
-  - FN: Nostro API Support
-    email: api-support@nostro.example.com
-- name: Reporting API
-  description: Generate comprehensive reports on nostro account activity and positions
-  image: https://example.com/reporting-icon.png
-  baseURL: https://api.nostro.example.com/v1/reports
-  humanURL: https://nostro.example.com/products/reporting
-  tags:
-  - Reports
-  - Analytics
-  - Compliance
-  - Audit
-  properties:
-  - type: Documentation
-    url: https://docs.nostro.example.com/reporting
-  - type: OpenAPI
-    url: https://api.nostro.example.com/openapi/reporting.yaml
-  - type: Change Log
-    url: https://docs.nostro.example.com/changelog
-  contact:
-  - FN: Nostro API Support
-    email: api-support@nostro.example.com
-common:
-- type: Getting Started
-  url: https://docs.nostro.example.com/getting-started
-- type: Authentication
-  url: https://docs.nostro.example.com/authentication
-- type: Status
-  url: https://status.nostro.example.com
-- type: Terms of Service
-  url: https://nostro.example.com/terms
-- type: Privacy Policy
-  url: https://nostro.example.com/privacy
-- type: Support
-  url: https://nostro.example.com/support
-- type: Blog
-  url: https://nostro.example.com/blog
-- type: Pricing
-  url: https://nostro.example.com/pricing
+  - Liquidity Management
+  - Treasury
+url: https://raw.githubusercontent.com/api-evangelist/nostro/refs/heads/main/apis.yml
+created: '2024-01-15'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis: []
+common: []
 maintainers:
-- FN: Nostro Platform Team
-  email: platform@nostro.example.com
-  url: https://nostro.example.com/about
+  - FN: Kin Lane
+    email: kin@apievangelist.com
