@@ -22,7 +22,6 @@ common:
   - type: LinkedIn
     url: https://www.linkedin.com/company/officialnostro
 apis: []
-common: []
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
