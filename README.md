@@ -1,4 +1,4 @@
-# Nostro (nostro)
+# Nostro
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,114 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Nostro provides APIs for managing correspondent banking relationships, nostro account reconciliation, and liquidity management across multiple currencies and financial institutions.
+Nostro refers to an account that a bank holds in a foreign currency at another bank (correspondent bank). Nostro account management involves reconciliation, liquidity management, and transaction tracking across correspondent banking relationships and multiple currencies.
 
-**URL:** [Visit APIs.json URL](https://nostro.example.com)
+**Areas:** Banking · Correspondent Banking · Liquidity Management · Nostro Accounts · Reconciliation · Treasury
 
-## Tags:
+## Nostro on APIs.io
 
- - Banking, Nostro Accounts, Correspondent Banking, Reconciliation, Liquidity Management, Treasury
+Everything profiled for Nostro is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nostro/](https://apis.io/providers/nostro/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+## API Evangelist rating
 
-- **Created:** 2024-01-15 
-- **Modified:** 2024-01-15 
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-## APIs
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-### Nostro Accounts API
-Manage nostro account information, balances, and positions across correspondent banks
+## How this profile is made
 
-**Human URL:** [https://nostro.example.com/products/accounts](https://nostro.example.com/products/accounts)
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Nostro: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-#### Tags:
+## Open an issue
 
- - Accounts, Balances, Positions
-
-#### Properties
-
-- [Documentation](https://docs.nostro.example.com/accounts)
-- [OpenAPI](https://api.nostro.example.com/openapi/accounts.yaml)
-- [Authentication](https://docs.nostro.example.com/authentication)
-
-### Reconciliation API
-Automate nostro account reconciliation with bank statements and internal records
-
-**Human URL:** [https://nostro.example.com/products/reconciliation](https://nostro.example.com/products/reconciliation)
-
-
-#### Tags:
-
- - Reconciliation, Statements, Matching, Exceptions
-
-#### Properties
-
-- [Documentation](https://docs.nostro.example.com/reconciliation)
-- [OpenAPI](https://api.nostro.example.com/openapi/reconciliation.yaml)
-- [Webhooks](https://docs.nostro.example.com/webhooks/reconciliation)
-
-### Liquidity Management API
-Monitor and optimize liquidity across nostro accounts and currencies
-
-**Human URL:** [https://nostro.example.com/products/liquidity](https://nostro.example.com/products/liquidity)
-
-
-#### Tags:
-
- - Liquidity, Cash Management, Forecasting, Optimization
-
-#### Properties
-
-- [Documentation](https://docs.nostro.example.com/liquidity)
-- [OpenAPI](https://api.nostro.example.com/openapi/liquidity.yaml)
-- [SDKs](https://docs.nostro.example.com/sdks)
-
-### Transactions API
-Process and track transactions across nostro accounts
-
-**Human URL:** [https://nostro.example.com/products/transactions](https://nostro.example.com/products/transactions)
-
-
-#### Tags:
-
- - Transactions, Payments, Transfers, History
-
-#### Properties
-
-- [Documentation](https://docs.nostro.example.com/transactions)
-- [OpenAPI](https://api.nostro.example.com/openapi/transactions.yaml)
-- [Rate Limits](https://docs.nostro.example.com/rate-limits)
-
-### Reporting API
-Generate comprehensive reports on nostro account activity and positions
-
-**Human URL:** [https://nostro.example.com/products/reporting](https://nostro.example.com/products/reporting)
-
-
-#### Tags:
-
- - Reports, Analytics, Compliance, Audit
-
-#### Properties
-
-- [Documentation](https://docs.nostro.example.com/reporting)
-- [OpenAPI](https://api.nostro.example.com/openapi/reporting.yaml)
-- [Change Log](https://docs.nostro.example.com/changelog)
-
-## Common Properties
-
-- [Getting Started](https://docs.nostro.example.com/getting-started)
-- [Authentication](https://docs.nostro.example.com/authentication)
-- [Status](https://status.nostro.example.com)
-- [Terms of Service](https://nostro.example.com/terms)
-- [Privacy Policy](https://nostro.example.com/privacy)
-- [Support](https://nostro.example.com/support)
-- [Blog](https://nostro.example.com/blog)
-- [Pricing](https://nostro.example.com/pricing)
-
-## Maintainers
-
-**FN:** Nostro Platform Team
-
-**Email:** platform@nostro.example.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nostro/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
